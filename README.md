@@ -4,7 +4,8 @@
 
 The aim of this study is to identify the variables—divided into economic, genetic, societal, and personal factors—that influence academic performance as measured by math, reading, and writing scores on some exams.
 
-![Customer-service-in-education jpg](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/f5712157-007e-4314-af5d-6f34984607c3)
+
+![Customer-service-in-education jpg](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/7aa37507-c809-4e77-9fd9-3bf8117f41af)
 
 ## About Dataset
 
@@ -226,7 +227,7 @@ aggr_plot <- aggr(Students, col=c('#4EE2EC','#fc8d62'),
         ReadingScore 0.00000000
 ~~~
 
-![na](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/47d93a5e-2f0f-410d-9719-15c413d5551d)
+![na](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/3fa62241-94d5-4feb-beb3-01c3288fe38a)
 
 There is about 10 percent of the "Transport Means" column missing, and about 6 percent or less from some other columns. We are going to impute them later, but now we are going to deal with the data as it is.
 
@@ -318,7 +319,7 @@ combined_plot1 <- ggarrange(plotb,plota,
 combined_plot1
 ~~~
 
-![combined_plot1](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/21209b57-3671-4df2-b9d9-cc85053431b6)
+![combined_plot1](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/05b90366-10aa-46bc-9369-c789ac734a85)
 
 The mean math scores of females and males are about 64 and 69, respectively, but is that statistically significant? We need to take a t-test to show if the difference between females and males in math scores is statistically significant or not.
 
@@ -417,7 +418,7 @@ combined_plot2 <- ggarrange(plotd,plotc,
 combined_plot2
 ~~~
 
-![combined_plot2](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/22ef8ccf-551b-4bb3-b539-bce9aa8bda43)
+![combined_plot2](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/e1209559-5a79-4503-8ff5-d57500ef0f06)
 
 ~~~~
 t.test(ReadingScore~Gender,data=Students)
@@ -511,7 +512,7 @@ combined_plot3 <- ggarrange(plotf,plote,
 combined_plot3
 ~~~
 
-![combined_plot3](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/ec2ae130-6643-4af4-ae19-27c50ee9e09a)
+![combined_plot3](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/28b21e5e-dd1a-40f9-9856-affa01928896)
 
 ~~~
 ##t-test
@@ -567,7 +568,7 @@ combined_plot4 <- ggarrange(plot7,
 combined_plot4
 ~~~
 
-![combined_plot4](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/ad8f6d47-2b6b-46dd-ac19-08e2b31a6c23)
+![combined_plot4](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/0833f010-06d5-42bf-86b7-662290064581)
 
 We need to analyse the variance between variables and the null hypothesis (Ho), which states that there is no significant difference between the variables being measured. If the test yields statistically significant results, then the tester can reject the null hypothesis and accept the alternative hypothesis (H1), stating that the difference between variables is significant.
 
@@ -646,7 +647,7 @@ combined_plot5 <- ggarrange(plot9,
 combined_plot5
 ~~~
 
-![combined_plot5](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/16793628-7d07-44a7-8dbc-c0df9d88294c)
+![combined_plot5](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/6c984d69-a22a-450f-aea1-06f71f2bf17d)
 
 The Anova test 
 
@@ -723,7 +724,7 @@ combined_plot6 <- ggarrange(plot11,
 combined_plot6
 ~~~
 
-![combined_plot6](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/3a0122fb-ad94-4297-9128-89cd82c41dbd)
+![combined_plot6](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/1f490665-dad5-4f92-84d8-b5f57ef7aade)
 
 The Anova test 
 
@@ -802,7 +803,7 @@ combined_plot7 <- ggarrange(plot13,
 combined_plot7
 ~~~
 
-![combined_plot7](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/b9f19fcf-654b-4cb0-8def-fc7ce3cf83d9)
+![combined_plot7](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/484741fb-cbc9-4442-99a5-56c4cbb84ace)
 
 The Anova test 
 
@@ -882,7 +883,7 @@ combined_plot8 <- ggarrange(plot15,
 combined_plot8
 ~~~
 
-![combined_plot8](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/cfbe4e0e-ab20-4d70-8395-9cc3f207bbb5)
+![combined_plot8](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/10cfe2c6-cd53-4574-9b40-1fe0a8c29e4d)
 
 The Anova test 
 
@@ -962,7 +963,7 @@ combined_plot9 <- ggarrange(plot17,
 combined_plot9
 ~~~
 
-![combined_plot9](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/871588d7-0172-40a1-a0de-6d9444ee7de9)
+![combined_plot9](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/8950f641-390b-4a4d-83da-9098dd4b290d)
 
 The Anova test 
 
@@ -1078,7 +1079,7 @@ combined_plot10 <- ggarrange(plote,plotf,
 combined_plot10
 ~~~
 
-![combined_plot10](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/d320d932-efd0-4647-8440-5578316d8617)
+![combined_plot10](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/1be0e236-dee2-41ce-93e4-66dfef70ef54)
   
 ~~~  
 t.test(MathScore~LunchType,data=Students)
@@ -1167,7 +1168,7 @@ combined_plot11 <- ggarrange(plotg,ploth,
 combined_plot11
 ~~~
 
-![combined_plot11](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/6ada7c8e-7537-463a-9360-bebdc0d50005)
+![combined_plot11](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/d2e6a436-bf55-4b29-861a-74c575e76259)
   
 ~~~  
 t.test(ReadingScore~LunchType,data=Students)
@@ -1257,8 +1258,8 @@ combined_plot12 <- ggarrange(ploti,plotj,
 combined_plot12
 ~~~
 
-![combined_plot12](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/0ec8cf6f-a9dd-4abf-a73a-231141e8194c)
- 
+![combined_plot12](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/64b8bccb-3e30-4bbb-8376-d8edcd29586b)
+
 ~~~  
 t.test(WritingScore~LunchType,data=Students)
 ~~~
@@ -1348,7 +1349,7 @@ combined_plot13 <- ggarrange(plotk,plotl,
 combined_plot13
 ~~~
 
-![combined_plot13](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/c3b6aa70-b8c9-4304-939c-d68dcc602c4b)
+![combined_plot13](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/125013a5-75f2-4ddc-8aec-58dafba1c7ae)
 
 ~~~  
 t.test(MathScore~TestPrep,data=Students)
@@ -1436,8 +1437,7 @@ combined_plot14 <- ggarrange(plotm,plotn,
 combined_plot14
 ~~~
 
-![combined_plot14](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/c752812f-21ad-4f95-8d47-e53506c716bb)
-
+![combined_plot14](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/ab6eb901-8a5f-4fca-a2ef-e287024c206b)
   
 ~~~  
 t.test(ReadingScore~TestPrep,data=Students)
@@ -1527,7 +1527,7 @@ combined_plot15 <- ggarrange(ploto,plotp,
 combined_plot15
 ~~~
 
-![combined_plot15](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/4d8aaa09-dfa7-40fc-ac15-f04490f4c15b)
+![combined_plot15](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/adef9a4a-1deb-4eb1-a4a7-8f2093c3ff66)
   
 ~~~  
 t.test(WritingScore~TestPrep,data=Students)
@@ -1547,6 +1547,8 @@ sample estimates:
 ~~~  
 
 ### Parent Marital Status
+
+**Math score**
 
 ~~~
 ##histogram showing math score by Parent Marital Status
@@ -1579,7 +1581,7 @@ combined_plot16 <- ggarrange(plot31,
 combined_plot16
 ~~~
 
-![combined_plot16](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/67c92e85-c7b6-41da-be99-9efa91eacfaa)
+![combined_plot16](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/0508d659-a954-403b-838b-c48eccb98e61)
 
 The Anova test 
 
@@ -1618,6 +1620,8 @@ widowed-married   0.71154028 -0.9386711 2.36175166 0.6847732
 widowed-single    1.20316251 -0.4850243 2.89134933 0.2587076
 ~~~
 
+**Reading score**
+
 ~~~
 ##histogram showing reading score by Parent Marital Status
 plot33<-ggplot(subset(Students,!is.na(ParentMaritalStatus)),aes(x=ReadingScore))+
@@ -1650,7 +1654,7 @@ combined_plot17 <- ggarrange(plot33,
 combined_plot17
 ~~~
 
-![combined_plot17](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/fe2de1b2-c6b8-4605-9c7e-cefd15d7b88e)
+![combined_plot17](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/6cd3eda5-a912-4eec-aa62-76746569690b)
 
 The Anova test 
 
@@ -1687,6 +1691,8 @@ widowed-married   0.261863317 -1.3237944 1.8475210 0.9743488
 widowed-single    0.494188698 -1.1279589 2.1163363 0.8623672
 ~~~
 
+**Writing score**
+
 ~~~
 ##histogram showing Writing score by Parent Marital Status
 plot35<-ggplot(subset(Students,!is.na(ParentMaritalStatus)),aes(x=WritingScore))+
@@ -1718,7 +1724,7 @@ combined_plot18 <- ggarrange(plot35,
 combined_plot18
 ~~~
 
-![combined_plot18](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/7c9fe772-f2d2-4811-b72b-2c34e30b0654)
+![combined_plot18](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/47e78466-e62b-4510-87af-ed0e570307ad)
 
 The Anova test 
 
@@ -1759,6 +1765,8 @@ widowed-single    0.3890119 -1.3088701 2.0868938 0.9355619
 
 ### Practice Sport
 
+**Math score**
+
 ~~~
 ##histogram showing math score by weekly Practice Sport
 plot37<-ggplot(subset(Students,!is.na(PracticeSport)),aes(x=MathScore))+
@@ -1790,7 +1798,7 @@ combined_plot19 <- ggarrange(plot37,
 combined_plot19
 ~~~
 
-![combined_plot19](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/a91df820-5fcd-47b9-8873-fea0fcddb8b1)
+![combined_plot19](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/c50fc464-30c2-4562-8537-cb77e03584a8)
 
 The Anova test 
 
@@ -1826,6 +1834,8 @@ sometimes-never      2.103752  1.465696  2.741807     0
 sometimes-regularly -1.564324 -2.016418 -1.112231     0
 ~~~
 
+**Reading score**
+
 ~~~
 ##histogram showing reading score by weekly Practice Sport
 plot39<-ggplot(subset(Students,!is.na(PracticeSport)),aes(x=ReadingScore))+
@@ -1858,7 +1868,7 @@ combined_plot20 <- ggarrange(plot39,
 combined_plot20
 ~~~
 
-![combined_plot20](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/4d99c9b5-b35b-40ca-bb45-0bebf584b125)
+![combined_plot20](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/8813d70a-eeb4-4c73-912f-dbe5ef7b2c89)
 
 The Anova test 
 
@@ -1894,6 +1904,8 @@ sometimes-never      0.9036444  0.2892148  1.5180741 0.0016432
 sometimes-regularly -0.7017118 -1.1370654 -0.2663583 0.0004648
 ~~~
 
+**Writing score**
+
 ~~~
 ##histogram showing writing score by weekly Practice Sport
 plot41<-ggplot(subset(Students,!is.na(PracticeSport)),aes(x=WritingScore))+
@@ -1925,7 +1937,7 @@ combined_plot21 <- ggarrange(plot41,
 combined_plot21
 ~~~
 
-![combined_plot21](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/c6ce2a11-6916-413f-9f79-bbfb9608e502)
+![combined_plot21](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/9e0d2121-f87b-4f6b-81d5-96be0b16e521)
 
 The Anova test 
 
@@ -1963,6 +1975,7 @@ sometimes-regularly -1.531565 -1.9862931 -1.076836     0
 
 ### If It's the First Child
 
+**Math score**
 ~~~
 ##math score density chart for the family First Child Students
 plotq<-ggplot(subset(Students,IsFirstChild=="yes"),aes(x=MathScore))+
@@ -2028,7 +2041,7 @@ combined_plot22 <- ggarrange(plotq,plotr,
 combined_plot22
 ~~~
 
-![combined_plot22](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/45f67c24-f233-4014-bd71-bd1d515e6c61)
+![combined_plot22](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/2c8988b7-2d84-4b13-a325-37bb1702e42f)
 
 ~~~
 t.test(MathScore~IsFirstChild,data=Students)
@@ -2116,8 +2129,8 @@ combined_plot23 <- ggarrange(plots,plott,
 combined_plot23
 ~~~
 
-![combined_plot23](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/b80ec4dd-502b-41c0-9626-824d68c3d5e5)
-  
+![combined_plot23](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/f27ae14f-aa25-4619-a738-c87d2c8b3677)
+
 ~~~  
 t.test(ReadingScore~IsFirstChild,data=Students)
 ~~~
@@ -2207,7 +2220,7 @@ combined_plot24 <- ggarrange(plotu,plotv,
 combined_plot24
 ~~~
 
-![combined_plot24](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/7695f175-2f11-4ee1-91dc-1a6aabf330e6)
+![combined_plot24](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/6b4bb047-e1fc-4d11-8e24-5db5549f92bc)  
 
 ~~~  
 t.test(WritingScore~IsFirstChild,data=Students)
@@ -2227,6 +2240,8 @@ sample estimates:
 ~~~  
 
 ### number of siblings
+
+**Math score**
 
 ~~~
 ##histogram showing math score by number of siblings
@@ -2260,7 +2275,7 @@ combined_plot25 <- ggarrange(plot49,
 combined_plot25
 ~~~
 
-![combined_plot25](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/54da6b03-5b3a-43bc-be2d-fa7a158a28b1)
+![combined_plot25](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/058d2111-625a-42ea-adad-b8a006ae234f)
 
 The Anova test 
 
@@ -2319,6 +2334,7 @@ $`as.character(NrSiblings)`
 7-6  1.69790173 -2.1232460 5.5190494 0.8808437
 ~~~
 
+**Reading test**
 
 ~~~
 ##histogram showing reading score by number of siblings
@@ -2354,7 +2370,7 @@ combined_plot26 <- ggarrange(plot51,
 combined_plot26
 ~~~
 
-![combined_plot26](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/98f0c3d6-2815-401c-aff7-ca5b720ff58c)
+![combined_plot26](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/528e685c-62e7-418e-bbb5-d3e0a8adc5a9)
 
 The Anova test 
 
@@ -2413,6 +2429,8 @@ $`as.character(NrSiblings)`
 7-6  1.02685419 -2.6458033 4.6995117 0.9903140
 ~~~
 
+**Writing score**
+
 ~~~
 ##histogram showing writing score by number of siblings
 plot53<-ggplot(subset(Students,!is.na(NrSiblings)),aes(x=WritingScore))+
@@ -2447,7 +2465,7 @@ combined_plot27 <- ggarrange(plot53,
 combined_plot27
 ~~~
 
-![combined_plot27](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/be882222-098c-4e04-8f33-ae7a267b24ea)
+![combined_plot27](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/0206d336-c7b5-4b16-94b7-77269d885c1e)
 
 The Anova test 
 
@@ -2575,7 +2593,7 @@ combined_plot28 <- ggarrange(plotw,plotx,
 combined_plot28
 ~~~
 
-![combined_plot28](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/ec12fc40-7723-4ea4-bef4-a4f40a802b45)
+![combined_plot28](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/c190348e-f45f-4197-b858-ed29296a0629)
 
 ~~~  
 t.test(MathScore~TransportMeans,data=Students)
@@ -2662,7 +2680,7 @@ combined_plot29 <- ggarrange(ploty,plotz,
 combined_plot29
 ~~~
 
-![combined_plot29](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/171af7d4-e867-4c91-9c9c-29f824c7d5d5)
+![combined_plot29](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/1bebeee0-33c6-44de-9edf-e6843c23a1a3)
 
 ~~~  
 t.test(ReadingScore~TransportMeans,data=Students)
@@ -2751,7 +2769,7 @@ combined_plot30 <- ggarrange(plotaa,plotbb,
 combined_plot30
 ~~~
 
-![combined_plot30](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/78695866-b76f-4d71-ae59-684dea1af6ff)
+![combined_plot30](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/cd4dc603-cb72-4bae-885b-92f22b3d9ea1)
   
 ~~~  
 t.test(WritingScore~TransportMeans,data=Students)
@@ -2806,7 +2824,7 @@ combined_plot31 <- ggarrange(plot61,
 combined_plot31
 ~~~~
 
-![combined_plot31](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/24a5571e-0d16-4711-8462-7bc65774eeac)
+![combined_plot31](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/b346eeb8-62b4-4d33-baa8-4e12b62bbde9)
 
 The Anova test 
 
@@ -2842,7 +2860,7 @@ diff       lwr       upr p adj
 5 - 10-> 10 -1.826164 -2.397317 -1.255011     0  
 ~~~ 
 
-**reading score**
+**Reading score**
 
 ~~~
 ##histogram showing reading score by Weekly Study Hours 
@@ -2875,7 +2893,7 @@ combined_plot32 <- ggarrange(plot63,
 combined_plot32
 ~~~
 
-![combined_plot32](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/0fae444f-79fb-4e74-9da3-d28286bcb08c)
+![combined_plot32](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/e016c0a0-7837-4d6f-9c74-7a3269c186f5)
 
 The Anova test 
 
@@ -2944,7 +2962,7 @@ combined_plot33 <- ggarrange(plot65,
 combined_plot33
 ~~~
 
-![combined_plot33](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/7fd4f9c4-8217-48a7-93ef-299a862b4d43)
+![combined_plot33](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/08e420d7-1cf4-4ef6-82a0-d2b1e02d9336)
 
 The Anova test 
 
@@ -2990,7 +3008,7 @@ model.matrix(~0+., data=select(Students,-X)) %>%
   ggcorrplot(show.diag=FALSE, type="lower", lab=TRUE, lab_size=2)
 ~~~
 
-![cor_plot](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/2854f778-8dd6-4100-8fa4-9cdad71cbda1)
+![cor_plot](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/4e7fc0f4-b6d0-4769-a5bd-d82c92b35e7d)
 
 correlation table between math, reading, and writing scores
 
@@ -3037,7 +3055,7 @@ combined_plot34 <- ggarrange(plot67,plot68,plot69,
 combined_plot34
 ~~~
 
-![combined_plot34](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/e4f463f0-3e07-4966-a981-718041f5c7e3)
+![combined_plot34](https://github.com/mahmoud26202620/Students-Exam-Anova-Analysis/assets/41892582/66fe867a-feef-40ed-9fa1-a99a75e3aae8)
 
 # The results
 
